@@ -328,13 +328,13 @@ Se preferir, pode pegar a collection dos testes e importar no Postman, a mesma e
 
 ## 📢 Testes unitário
 
-Para executar os testes unitário, basta clicar com o botão direto sobre a pasta **test**, e depois e Run como mostra a imagem abaixo.
+Para executar os testes unitário, basta clicar com o botão direto sobre a pasta **test**, e depois e **Run**, como mostra a imagem abaixo.
 
 ![Testes unitários](imagens/teste.png "Testes unitário")
 
-Após a execução dos testes, será gerado os relatórios do Jacoco, então podemos visualizar os mesmo no seguinte caminho do projeto.
+Após a execução dos testes, será gerado os relatórios do Jacoco, então podemos visualizar os mesmos no seguinte caminho do projeto.
 
-Relatório; /feira-api/build/reports/tests/test/index.html
+**Relatório;** /feira-api/build/reports/tests/test/index.html
 
 Abaixo podemos ver o relatório gerado.
 
@@ -342,7 +342,7 @@ Abaixo podemos ver o relatório gerado.
 
 Tambẽm podemos ver o relatório de cobertura por pacote.
 
-Relatório de cobetura: /feira-api/build/jacocoHtml
+**Relatório de cobetura:** /feira-api/build/jacocoHtml
 
 Abaixo um dos relatórios de cobertura.
 
