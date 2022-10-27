@@ -1,0 +1,19 @@
+{
+  "id": 11,
+  "longitude": -46434970,
+  "latitude": -23521470,
+  "setCens": 355030874000073,
+  "areAp": 3550308005197,
+  "codDist": 76,
+  "district": "SAO MIGUEL",
+  "codSubPrefecture": 23,
+  "subPrefecture": "SAO MIGUEL",
+  "regionFive": "Leste",
+  "regionEight": "Leste 2",
+  "fairName": "CECILIA ITER",
+  "register": "4072-0",
+  "streetName": "AV MONS AGNELO",
+  "number": "305.000000",
+  "neighborhood": "VL PROGRESSO",
+  "referencePoint": "P FINAL ON VILA PROGRESSO"
+}

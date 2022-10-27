@@ -1,0 +1,19 @@
+{
+
+  "longitude": -1,
+  "latitude": -1,
+  "set_cens": 1,
+  "are_ap": 1,
+  "cod_dist": 1,
+  "district": "BARUERI-district",
+  "cod_sub_prefecture": 25,
+  "sub_prefecture": "MOOCA-cod_sub_prefecture",
+  "region_five": "LesteSS",
+  "region_eight": "Leste S1",
+  "fair_name": "CONCORDIAS",
+  "register": "123",
+  "street_name": "RUA SAMPSON C MENDES JUNIORS",
+  "number": "S/NA",
+  "neighborhood": "BRASS",
+  "reference_point": "TV RUA BRESSERS"
+}

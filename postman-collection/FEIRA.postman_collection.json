@@ -1,0 +1,380 @@
+{
+	"info": {
+		"_postman_id": "08d53377-c4e0-4c0a-b262-af650f7a5fee",
+		"name": "FEIRA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CONSULTA POR DISTRITO",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair?district=BRAS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair"
+					],
+					"query": [
+						{
+							"key": "district",
+							"value": "BRAS"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CONSULTA POR REGIAO 5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair?region_five=Leste",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair"
+					],
+					"query": [
+						{
+							"key": "region_five",
+							"value": "Leste"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CONSULTA POR NOME DA FEIRA",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair?fair_name=PRACA SANTA HELENA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair"
+					],
+					"query": [
+						{
+							"key": "fair_name",
+							"value": "PRACA SANTA HELENA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CONSULTA POR BAIRRO",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair?neighborhood=VL PROGRESSO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair"
+					],
+					"query": [
+						{
+							"key": "neighborhood",
+							"value": "VL PROGRESSO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CONSULTA COM TODOS PARAMETROS",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair?district=FREGUESIA DO O&region_five=Norte&fair_name=CRUZ DAS ALMAS&neighborhood=CRUZ DAS ALMAS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair"
+					],
+					"query": [
+						{
+							"key": "district",
+							"value": "FREGUESIA DO O"
+						},
+						{
+							"key": "region_five",
+							"value": "Norte"
+						},
+						{
+							"key": "fair_name",
+							"value": "CRUZ DAS ALMAS"
+						},
+						{
+							"key": "neighborhood",
+							"value": "CRUZ DAS ALMAS"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CONSULTA DADO NAO ENCONTRADO - 404",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CONSULTA DADO SEM PARAMETROS - 400",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair?district=FRANCA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair"
+					],
+					"query": [
+						{
+							"key": "district",
+							"value": "FRANCA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SALVAR NOVO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\n    \n        \"longitude\": -1,\n        \"latitude\": -1,\n        \"set_cens\": 1,\n        \"are_ap\": 1,\n        \"cod_dist\": 1,\n        \"district\": \"BARUERI-district\",\n        \"cod_sub_prefecture\": 25,\n        \"sub_prefecture\": \"MOOCA-cod_sub_prefecture\",\n        \"region_five\": \"LesteSS\",\n        \"region_eight\": \"Leste S1\",\n        \"fair_name\": \"CONCORDIAS\",\n        \"register\": \"123\",\n        \"street_name\": \"RUA SAMPSON C MENDES JUNIORS\",\n        \"number\": \"S/NA\",\n        \"neighborhood\": \"BRASS\",\n        \"reference_point\": \"TV RUA BRESSERS\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ATUALIZAR",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {\n        \"longitude\": -46610332,\n        \"latitude\": -23536131,\n        \"set_cens\": 355030810000027,\n        \"are_ap\": 3550308005005,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS2\",\n        \"cod_sub_prefecture\": 25,\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_five\": \"Leste\",\n        \"region_eight\": \"Leste 1\",\n        \"fair_name\": \"CONCORDIA\",\n        \"register\": \"4003-7\",\n        \"street_name\": \"RUA SAMPSON C MENDES JUNIOR\",\n        \"number\": \"S/N\",\n        \"neighborhood\": \"BRAS\",\n        \"reference_point\": \"TV RUA BRESSER\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair/31333333",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair",
+						"31333333"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ATUALIZAR NAO ENCONTRADO - 404",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {\n        \"longitude\": -46610332,\n        \"latitude\": -23536131,\n        \"set_cens\": 355030810000027,\n        \"are_ap\": 3550308005005,\n        \"cod_dist\": 10,\n        \"district\": \"BRAS2\",\n        \"cod_sub_prefecture\": 25,\n        \"sub_prefecture\": \"MOOCA\",\n        \"region_five\": \"Leste\",\n        \"region_eight\": \"Leste 1\",\n        \"fair_name\": \"CONCORDIA\",\n        \"register\": \"4003-7\",\n        \"street_name\": \"RUA SAMPSON C MENDES JUNIOR\",\n        \"number\": \"S/N\",\n        \"neighborhood\": \"BRAS\",\n        \"reference_point\": \"TV RUA BRESSER\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fair/3000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair",
+						"3000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/fair/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fair",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

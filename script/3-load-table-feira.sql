@@ -1,0 +1,12 @@
+TRUNCATE TABLE tb_enderecos;
+
+ALTER TABLE tb_enderecos MODIFY `id`INT;
+
+LOAD DATA LOCAL INFILE '/home/cicero/projects/feira/0-data-csv/DEINFO_AB_FEIRASLIVRES_2014.csv' 
+INTO TABLE tb_enderecos 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+ALTER TABLE tb_enderecos MODIFY `id`INT NOT NULL AUTO_INCREMENT;

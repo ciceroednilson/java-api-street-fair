@@ -1,0 +1,329 @@
+2022-10-26 22:43:55.732 INFO  otTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.ciceroednilson.feira.FeiraApiApplicationTests], using SpringBootContextLoader
+2022-10-26 22:43:55.753 INFO  c.s.AbstractContextLoader - Could not detect default resource locations for test class [br.com.ciceroednilson.feira.FeiraApiApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-26 22:43:55.757 INFO  nConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.ciceroednilson.feira.FeiraApiApplicationTests]: FeiraApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-26 22:43:56.130 INFO  otTestContextBootstrapper - Found @SpringBootConfiguration br.com.ciceroednilson.feira.FeiraApiApplication for test class br.com.ciceroednilson.feira.FeiraApiApplicationTests
+2022-10-26 22:43:56.323 INFO  otTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-26 22:43:56.368 INFO  otTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6eb089e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@715a70e9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3bc69ce9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@abad89c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@602f8f94, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42507640, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4dfe8b37, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@11dcd42c, org.springframework.test.context.event.EventPublishingTestExecutionListener@d13baac, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4c302f38, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@75aea2ba, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2a47597, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@12f279b5, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5ff6dd3c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5fcd1f0a]
+2022-10-26 22:43:57.006 INFO  .FeiraApiApplicationTests - Starting FeiraApiApplicationTests using Java 17.0.1 on ti with PID 1365100 (started by cicero in /home/cicero/projects/feira/2-source/feira-api)
+2022-10-26 22:43:57.009 INFO  .FeiraApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2022-10-26 22:43:57.123 INFO  o.h.v.i.util.Version      - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-26 22:44:01.730 INFO  .FeiraApiApplicationTests - Started FeiraApiApplicationTests in 5.283 seconds (JVM running for 8.91)
+2022-10-26 22:44:02.483 INFO  vcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.ciceroednilson.feira.controller.StreetFairControllerTest], using SpringBootContextLoader
+2022-10-26 22:44:02.485 INFO  c.s.AbstractContextLoader - Could not detect default resource locations for test class [br.com.ciceroednilson.feira.controller.StreetFairControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-26 22:44:02.486 INFO  nConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.ciceroednilson.feira.controller.StreetFairControllerTest]: StreetFairControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-26 22:44:02.520 INFO  otTestContextBootstrapper - Found @SpringBootConfiguration br.com.ciceroednilson.feira.FeiraApiApplication for test class br.com.ciceroednilson.feira.controller.StreetFairControllerTest
+2022-10-26 22:44:02.523 INFO  vcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-26 22:44:02.526 INFO  vcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@61b2ca5a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78ec5e18, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@15962623, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f405c13, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58d7a3bb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42d12a27, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66d2bb60, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b5fc36d, org.springframework.test.context.event.EventPublishingTestExecutionListener@2e706bc6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@653bfc3d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16415241, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2330af4f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@eb3ceb4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3453014b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@281c8eda]
+2022-10-26 22:44:02.573 INFO  .StreetFairControllerTest - Starting StreetFairControllerTest using Java 17.0.1 on ti with PID 1365100 (started by cicero in /home/cicero/projects/feira/2-source/feira-api)
+2022-10-26 22:44:02.575 INFO  .StreetFairControllerTest - No active profile set, falling back to 1 default profile: "default"
+2022-10-26 22:44:03.786 INFO  ingBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2022-10-26 22:44:03.788 INFO  w.s.TestDispatcherServlet - Initializing Servlet ''
+2022-10-26 22:44:03.791 INFO  w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2022-10-26 22:44:03.813 INFO  .StreetFairControllerTest - Started StreetFairControllerTest in 1.28 seconds (JVM running for 10.993)
+2022-10-26 22:44:04.282 INFO  ltTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.ciceroednilson.feira.http.HandleExceptionTest], using DelegatingSmartContextLoader
+2022-10-26 22:44:04.284 INFO  c.s.AbstractContextLoader - Could not detect default resource locations for test class [br.com.ciceroednilson.feira.http.HandleExceptionTest]: no resource found for suffixes {-context.xml}.
+2022-10-26 22:44:04.286 INFO  nConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.ciceroednilson.feira.http.HandleExceptionTest]: HandleExceptionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-26 22:44:04.289 INFO  ltTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-26 22:44:04.290 INFO  ltTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@18f28f20, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2966bca2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7370f35b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6da0228a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@61a72b91, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7d3818ab, org.springframework.test.context.transaction.TransactionalTestExecutionListener@9a6c67c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@657e11b0, org.springframework.test.context.event.EventPublishingTestExecutionListener@3d5d552d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@9def6d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3fb75c24, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2a5129f3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7d72f5a9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@127b9bed, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1728a3fa]
+2022-10-26 22:44:04.330 ERROR b.c.c.f.h.HandleException - API-FAIR - Exception 
+java.lang.Exception: Bad Request
+	at br.com.ciceroednilson.feira.http.HandleExceptionTest.exceptionHandle(HandleExceptionTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy2/jdk.proxy2.$Proxy5.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-10-26 22:44:04.364 ERROR b.c.c.f.h.HandleException - API-FAIR - Exception 
+br.com.ciceroednilson.feira.http.ApplicationException: Bad Request
+	at br.com.ciceroednilson.feira.http.HandleExceptionTest.applicationExceptionHandle(HandleExceptionTest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy2/jdk.proxy2.$Proxy5.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-10-26 22:44:04.382 ERROR b.c.c.f.h.HandleException - API-FAIR - Exception 
+br.com.ciceroednilson.feira.http.ApplicationException: Bad Request
+	at br.com.ciceroednilson.feira.http.HandleExceptionTest.applicationExceptionHandleNullHttpStatus(HandleExceptionTest.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy2/jdk.proxy2.$Proxy5.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-10-26 22:44:04.398 INFO  ltTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.ciceroednilson.feira.repository.StreetFairRepositoryTest], using DelegatingSmartContextLoader
+2022-10-26 22:44:04.402 INFO  c.s.AbstractContextLoader - Could not detect default resource locations for test class [br.com.ciceroednilson.feira.repository.StreetFairRepositoryTest]: no resource found for suffixes {-context.xml}.
+2022-10-26 22:44:04.404 INFO  nConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.ciceroednilson.feira.repository.StreetFairRepositoryTest]: StreetFairRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-26 22:44:04.407 INFO  ltTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-26 22:44:04.409 INFO  ltTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13e4acf6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@566806a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5883f0d5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16139b0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@37d4b676, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6801536, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4142586b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4966454a, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b133d16, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5dbcaae7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@e6e203b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@75d978a9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@37601089, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@f337f10, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7023e935]
+2022-10-26 22:44:04.660 INFO  ltTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.ciceroednilson.feira.service.impl.StreetFairServiceImplTest], using DelegatingSmartContextLoader
+2022-10-26 22:44:04.662 INFO  c.s.AbstractContextLoader - Could not detect default resource locations for test class [br.com.ciceroednilson.feira.service.impl.StreetFairServiceImplTest]: no resource found for suffixes {-context.xml}.
+2022-10-26 22:44:04.664 INFO  nConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.ciceroednilson.feira.service.impl.StreetFairServiceImplTest]: StreetFairServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-26 22:44:04.667 INFO  ltTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-26 22:44:04.670 INFO  ltTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d356547, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3479e14e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4aa037e6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1abd92c6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7c44c38b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74c2edc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c9836d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3ac5a623, org.springframework.test.context.event.EventPublishingTestExecutionListener@60c7726b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@69b9a61, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@bb832f0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1cdb691a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@475414c0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1d46d6d9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@57235833]
+2022-10-26 22:44:04.712 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[SAO MIGUEL][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][null]
+2022-10-26 22:44:04.715 INFO  s.i.StreetFairServiceImpl - API-FAIR - Finished find by [district]:[SAO MIGUEL][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][null]
+2022-10-26 22:44:04.725 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started delete of id 1.
+2022-10-26 22:44:04.727 INFO  s.i.StreetFairServiceImpl - API-FAIR - Finished delete of id 1.
+2022-10-26 22:44:04.758 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[SAO MIGUEL][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][VL PROGRESSO]
+2022-10-26 22:44:04.769 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[null][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][VL PROGRESSO]
+2022-10-26 22:44:04.780 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started update of id 1.
+2022-10-26 22:44:04.782 INFO  s.i.StreetFairServiceImpl - API-FAIR - Finished update of id 1.
+2022-10-26 22:44:04.796 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[SAO MIGUEL][[regionFive][null][fairName][null][neighborhood][null]
+2022-10-26 22:44:04.798 INFO  s.i.StreetFairServiceImpl - API-FAIR - Finished find by [district]:[SAO MIGUEL][[regionFive][null][fairName][null][neighborhood][null]
+2022-10-26 22:44:04.810 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started delete of id 1.
+2022-10-26 22:44:04.822 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started new register.
+2022-10-26 22:44:04.824 INFO  s.i.StreetFairServiceImpl - API-FAIR - New register save successfully.
+2022-10-26 22:44:04.834 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started delete of id 1.
+2022-10-26 22:44:04.877 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started new register.
+2022-10-26 22:44:04.886 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started delete of id 1.
+2022-10-26 22:44:04.909 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[SAO MIGUEL][[regionFive][Leste][fairName][null][neighborhood][null]
+2022-10-26 22:44:04.911 INFO  s.i.StreetFairServiceImpl - API-FAIR - Finished find by [district]:[SAO MIGUEL][[regionFive][Leste][fairName][null][neighborhood][null]
+2022-10-26 22:44:04.926 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started new register.
+2022-10-26 22:44:04.937 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started update of id 1.
+2022-10-26 22:44:04.953 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started update of id 1.
+2022-10-26 22:44:04.965 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[null][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][VL PROGRESSO]
+2022-10-26 22:44:04.967 INFO  s.i.StreetFairServiceImpl - API-FAIR - Finished find by [district]:[null][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][VL PROGRESSO]
+2022-10-26 22:44:04.977 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started update of id 1.
+2022-10-26 22:44:05.002 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[SAO MIGUEL][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][VL PROGRESSO]
+2022-10-26 22:44:05.013 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[SAO MIGUEL][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][VL PROGRESSO]
+2022-10-26 22:44:05.014 INFO  s.i.StreetFairServiceImpl - API-FAIR - Finished find by [district]:[SAO MIGUEL][[regionFive][Leste][fairName][PARQUE SONIA][neighborhood][VL PROGRESSO]
+2022-10-26 22:44:05.021 INFO  s.i.StreetFairServiceImpl - API-FAIR - Started find by [district]:[null][[regionFive][null][fairName][null][neighborhood][null]

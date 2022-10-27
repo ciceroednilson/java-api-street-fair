@@ -1,0 +1,50 @@
+select: SELECT `id`,
+  `long` AS longitude,
+  `lat`  AS latitude,
+  `setcens`,
+  `areap`,
+  `coddist`,
+  `distrito`    AS district,
+  `codsubpref`  AS codSubPrefecture,
+  `subprefe`    AS subPrefecture,
+  `regiao5`     AS regionFive,
+  `regiao8`     AS regionEight,
+  `nome_feira`  AS fairName,
+  `registro`    AS register,
+  `logradouro`  AS streetName,
+  `numero`      AS number,
+  `bairro`      AS neighborhood,
+  `referencia`  AS referencePoint
+  FROM `db_feira`.`tb_enderecos`
+  WHERE `distrito`  = IFNULL(?, `distrito`)
+  AND `regiao5`     = IFNULL(?, `regiao5`)
+  AND `nome_feira`  = IFNULL(?, `nome_feira`)
+  AND `bairro`      = IFNULL(?, `bairro`)
+
+insert: INSERT INTO `db_feira`.`tb_enderecos`
+  (`long`,`lat`,`setcens`,`areap`,`coddist`,`distrito`, `codsubpref`,`subprefe`,`regiao5`,
+  `regiao8`,`nome_feira`,`registro`,`logradouro`,`numero`,`bairro`,`referencia`)
+  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+update: UPDATE `db_feira`.`tb_enderecos`
+           SET `long`       = ?,
+               `lat`        = ?,
+               `setcens`    = ?,
+               `areap`      = ?,
+               `coddist`    = ?,
+               `distrito`   = ?,
+               `codsubpref` = ?,
+               `subprefe`   = ?,
+               `regiao5`    = ?,
+               `regiao8`    = ?,
+               `nome_feira` = ?,
+               `registro`   = ?,
+               `logradouro` = ?,
+               `numero`     = ?,
+               `bairro`     = ?,
+               `referencia` = ?
+         WHERE `id`         = ?;
+
+delete: DELETE FROM tb_enderecos WHERE id = ?
+
+selectById: SELECT id FROM  tb_enderecos WHERE id= ? limit 1;
