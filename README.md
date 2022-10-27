@@ -128,11 +128,11 @@ Após a importação do arquivo, devera ter 880 registros na sua tabela, como mo
 
 ![total importado](imagens/total_importado.png "Total Importado")
 
-Caso tenha erro com o caminho do arquivo, pode ser adicionado o **OPT_LOCAL_INFILE=1 em Advanced -> Other** na connection do Mysql.
+Caso tenha erro com o caminho do arquivo, pode ser adicionado o **OPT_LOCAL_INFILE=1 em Advanced -> Other** na conexão do Mysql.
 
 ## ⚙️ Configurações do Banco de Dados e porta do Servidor na API
 
-No arquivo application.yml do projeto, você deve colocar as informações do seu banco de dados, e a porta do servidor onde quer executar.
+No arquivo **application.yml** do projeto, você deve colocar as informações do seu banco de dados, e a porta do servidor onde quer executar.
 
 ![Configuraçcoes Banco](imagens/application.png "Configurações do banco")
 
