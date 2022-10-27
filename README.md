@@ -240,7 +240,7 @@ curl --location --request POST 'http://localhost:8080/fair' \
     }'
 ~~~~
 
-Caso tenha algum problema de validação dos campos, receberemos um http 440, Bad Request, com o json abaixo.
+Caso tenha algum problema de validação dos campos, receberemos um http 400, Bad Request, com o json abaixo.
 
 ~~~~json
 [
