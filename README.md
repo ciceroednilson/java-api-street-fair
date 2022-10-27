@@ -1,6 +1,6 @@
-# API JAVA PARA CRUD DE FEIRAS DE RUA
+# API PARA CRUD DE FEIRAS DE RUA
 
-Api rest desenvolvida em Java e Banco de Dados Mysql.
+Api desenvolvida em Java e Banco de Dados Mysql.
 
 ## ⚙️ Código fonte
 
@@ -9,9 +9,7 @@ Api rest desenvolvida em Java e Banco de Dados Mysql.
 
 ## 🚀 Começando
 
-Nesse projeto vamos conhecer várias ferramentas usadas durante o desenvolvimento. 
-
-No tópico seguinte podemos ver as ferramentas e tecnologias usadas no processo de construção da API.
+Essa api tem o objetivo, de servir todo um fluxo de controle de cadastro das feiras de São Paulo.   
 
 ## 🛠 Ferramentas e Tecnologia usadas no projeto
 
@@ -350,6 +348,6 @@ Abaixo um dos relatórios de cobertura.
 
 1.0
 
-## ✒️ Autores
+## ✒️ Autor
 
 Cícero Machado - ciceroednilson@gmail.com
