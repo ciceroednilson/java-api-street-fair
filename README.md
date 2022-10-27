@@ -67,18 +67,18 @@ Usei o Docker para instalação do Msql, mas você pode instalar ele direto no s
 ![Arquitetura API](diagramas/4-arquitetura-api.png "Arquitetura API")
 
 
-## ⚙️ Criando Banco de Dados,
+## ⚙️ Criando Banco de Dados
 
-Você pode usar o script 1-create-data-base.sql que estã na pasta script, ou pode apenas executar o comando abaixo.
+Você pode usar o script **1-create-data-base.sql** que estã na pasta script, ou pode apenas executar o comando abaixo.
 
 ~~~~sql
 CREATE SCHEMA `db_feira` ;
 ~~~~
 
 
-## ⚙️ Criando a tabela,
+## ⚙️ Criando a tabela
 
-Para criar a tabela que vamos usar nesse projeto, você pode pegar o script 2-create-table-feira.sql que está na pasta script, ou pode apenas executar o comando abaixo.
+Para criar a tabela que vamos usar nesse projeto, você pode pegar o script **2-create-table-feira.sql** que está na pasta script, ou pode apenas executar o comando abaixo.
 
 ~~~~sql
 CREATE TABLE IF NOT EXISTS tb_enderecos(
@@ -104,9 +104,9 @@ CREATE TABLE IF NOT EXISTS tb_enderecos(
 
 ## ⚙️ Importando o arquivo que contem os endereços das feiras.
 
-## O arquivo se encontra na pasta csv.
+O arquivo se encontra na pasta csv.
 
-Para importar o arquivo você precisa mudar o caminho no script, pode pegar o mesmo na pasta pasta script com o nome 3-load-table-feira.sql ou pegar abaixo.
+Para importar o arquivo você precisa mudar o caminho no script, pode pegar o mesmo na pasta pasta script com o nome **3-load-table-feira.sql** ou pegar abaixo.
 
 ~~~~sql
 TRUNCATE TABLE tb_enderecos;
@@ -128,8 +128,7 @@ Após a importação do arquivo, devera ter 880 registros na sua tabela, como mo
 
 ![total importado](imagens/total_importado.png "Total Importado")
 
-Caso tenha erro com o caminho do arquivo, pode ser adicionado o OPT_LOCAL_INFILE=1 em Advanced -> Other na connection do Mysql.
-
+Caso tenha erro com o caminho do arquivo, pode ser adicionado o **OPT_LOCAL_INFILE=1 em Advanced -> Other** na connection do Mysql.
 
 ## ⚙️ Configurações do Banco de Dados e porta do Servidor na API
 
@@ -148,7 +147,6 @@ Após executar, podemos ver a documentação gerada pela api no endereço [http:
 Tambẽm podemos ver o arquivo de log gerado após uma execução da api.
 
 ![Log](imagens/arquivo-log.png "Log")
-
 
 ## 🔩 Testando a API.
 
