@@ -191,7 +191,7 @@ curl --location --request GET 'http://localhost:8080/fair' \
 --data-raw ''
 ~~~~
 
-Json do Erro 400
+Json do erro 400
 ~~~~json
 {
     "message": "Error to find the registers!",
