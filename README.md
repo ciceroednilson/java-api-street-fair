@@ -136,7 +136,9 @@ No arquivo **application.yml** do projeto, você deve colocar as informações d
 
 ![Configuraçcoes Banco](imagens/application.png "Configurações do banco")
 
-## 🔩 Para executar a aplicação, basta seguir os passos da imagem abaixo.
+## 🔩 Executando a API 
+
+Para executar a api, basta seguir os passos da imagem abaixo.
 
 ![Executar a aplicação](imagens/executar.png "Executar aplicação")
 
