@@ -102,7 +102,7 @@ CREATE TABLE IF NOT EXISTS tb_enderecos(
 
 ## ⚙️ Importando o arquivo que contem os endereços das feiras.
 
-O arquivo se encontra na pasta csv.
+O arquivo se encontra na pasta csv com o nome de **DEINFO_AB_FEIRASLIVRES_2014.csv**.
 
 Para importar o arquivo você precisa mudar o caminho no script, pode pegar o mesmo na pasta pasta script com o nome **3-load-table-feira.sql** ou pegar abaixo.
 
