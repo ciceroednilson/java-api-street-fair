@@ -328,7 +328,7 @@ Se preferir, pode pegar a collection dos testes e importar no Postman, a mesma e
 
 ## 📢 Testes unitário
 
-Para executar os testes unitário, basta clicar com o botão direto sobre a pasta teste, e depois e Run como mostra a imagem abaixo.
+Para executar os testes unitário, basta clicar com o botão direto sobre a pasta **test**, e depois e Run como mostra a imagem abaixo.
 
 ![Testes unitários](imagens/teste.png "Testes unitário")
 
