@@ -1,17 +1,19 @@
-API JAVA PARA CRUD DE FEIRAS DE RUA
+# API JAVA PARA CRUD DE FEIRAS DE RUA
 
 Api rest desenvolvida em Java e Banco de Dados Mysql.
 
-⚙️ Código fonte
+## ⚙️ Código fonte
+
 
  * [fontes/feira-api](fontes/feira-api)
 
-🚀 Começando
+## 🚀 Começando
+
 Nesse projeto vamos conhecer várias ferramentas usadas durante o desenvolvimento. 
 
 No tópico seguinte podemos ver as ferramentas e tecnologias usadas no processo de construção da API.
 
-🛠 Ferramentas e Tecnologia usadas no projeto
+## 🛠 Ferramentas e Tecnologia usadas no projeto
 
 <ol>
   <li>Java</li>
@@ -27,7 +29,7 @@ No tópico seguinte podemos ver as ferramentas e tecnologias usadas no processo 
   <li>Docker</li>
 </ol>
 
-📋 Pré-requisitos
+## 📋 Pré-requisitos
 
 Abaixo podemos ver as ferramentas necessárias para executar e testar o projeto.
 
@@ -42,7 +44,7 @@ Abaixo podemos ver as ferramentas necessárias para executar e testar o projeto.
 
 Usei o Docker para instalação do Msql, mas você pode instalar ele direto no seu Sistema Operacional.
 
-🔧 Instalação
+##  🔧 Instalação
 
 [Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
@@ -56,16 +58,16 @@ Usei o Docker para instalação do Msql, mas você pode instalar ele direto no s
 
 [Docker](https://docs.docker.com/engine/install/ubuntu/)
 
-⚙️ Arquitetura do projeto
+## ⚙️ Arquitetura do projeto
 
 ![Arquitetura](diagramas/2-arquitetura-geral.png "Arquitetura")
 
-⚙️ Arquitetura da API
+## ⚙️ Arquitetura da API
 
 ![Arquitetura API](diagramas/4-arquitetura-api.png "Arquitetura API")
 
 
-⚙️ Criando Banco de Dados,
+## ⚙️ Criando Banco de Dados,
 
 Você pode usar o script 1-create-data-base.sql que estã na pasta script, ou pode apenas executar o comando abaixo.
 
@@ -74,7 +76,7 @@ CREATE SCHEMA `db_feira` ;
 ~~~~
 
 
-⚙️ Criando a tabela,
+## ⚙️ Criando a tabela,
 
 Para criar a tabela que vamos usar nesse projeto, você pode pegar o script 2-create-table-feira.sql que está na pasta script, ou pode apenas executar o comando abaixo.
 
@@ -100,9 +102,9 @@ CREATE TABLE IF NOT EXISTS tb_enderecos(
 );
 ~~~~
 
-⚙️ Importando o arquivo que contem os endereços das feiras.
+## ⚙️ Importando o arquivo que contem os endereços das feiras.
 
-O arquivo se encontra na pasta csv.
+## O arquivo se encontra na pasta csv.
 
 Para importar o arquivo você precisa mudar o caminho no script, pode pegar o mesmo na pasta pasta script com o nome 3-load-table-feira.sql ou pegar abaixo.
 
@@ -129,13 +131,13 @@ Após a importação do arquivo, devera ter 880 registros na sua tabela, como mo
 Caso tenha erro com o caminho do arquivo, pode ser adicionado o OPT_LOCAL_INFILE=1 em Advanced -> Other na connection do Mysql.
 
 
-⚙️ Configurações do Banco de Dados e porta do Servidor na API
+## ⚙️ Configurações do Banco de Dados e porta do Servidor na API
 
 No arquivo application.yml do projeto, você deve colocar as informações do seu banco de dados, e a porta do servidor onde quer executar.
 
 ![Configuraçcoes Banco](imagens/application.png "Configurações do banco")
 
-🔩 Para executar a aplicação, basta seguir os passos da imagem abaixo.
+## 🔩 Para executar a aplicação, basta seguir os passos da imagem abaixo.
 
 ![Executar a aplicação](imagens/executar.png "Executar aplicação")
 
@@ -148,7 +150,7 @@ Tambẽm podemos ver o arquivo de log gerado após uma execução da api.
 ![Log](imagens/arquivo-log.png "Log")
 
 
-🔩 Testando a API.
+## 🔩 Testando a API.
 
 Abaixo temos alguns scripts para testar a api, basta importar os mesmos no Postman.
 
@@ -204,7 +206,7 @@ curl --location --request GET 'http://localhost:8080/fair?district=FRANCA' \
 --data-raw ''
 ~~~~
 
-Json do Erro 404
+Json do erro 404
 ~~~~json
 {
   "message": "Error to find the registers!",
@@ -324,10 +326,9 @@ Caso seja executado com sucesso o delete, devemos receber um http 200 ok, e caso
 
 Se preferir, pode pegar a collection dos testes e importar no Postman, a mesma estã na pasta [postman-collection](postman-collection/FEIRA.postman_collection.json).
 
-📢 Testes unitário
+## 📢 Testes unitário
 
 Para executar os testes unitário, basta clicar com o botão direto sobre a pasta teste, e depois e Run como mostra a imagem abaixo.
-
 
 ![Testes unitários](imagens/teste.png "Testes unitário")
 
@@ -347,8 +348,10 @@ Abaixo um dos relatórios de cobertura.
 
 ![Jacoco cobertura](imagens/coberturajacoco.png "Jacoco Cobertura")
 
-📌 Versão
+## 📌 Versão
+
 1.0
 
-✒️ Autores
+## ✒️ Autores
+
 Cícero Machado - ciceroednilson@gmail.com
